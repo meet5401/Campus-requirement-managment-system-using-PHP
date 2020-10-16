@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.student{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.form-box{
+  width: 380px;
+  height: 200px;
+  position: relative;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  margin-left: 500px;
+  margin-right: 700px;
+  background: #fff;
+  padding: 20px;
+  
+}
+.input-field{
+  width: 350px;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.submit-btn{
+  width: 30%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
